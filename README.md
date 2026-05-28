@@ -23,6 +23,8 @@ Create .env in /client:
 VITE_GOOGLE_CLIENT_ID=your_google_client_id
 VITE_API_URL=your_server_url
 
+If any dependencies are missing, install them as needed based on error messages.
+
 Run frontend:
 npm run dev
 
