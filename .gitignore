@@ -94,3 +94,5 @@ __pycache__/
 server/venv/
 .DS_Store
 server/.DS_Store
+.DS_Store
+server/.DS_Store
