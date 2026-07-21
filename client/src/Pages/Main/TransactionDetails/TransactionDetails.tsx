@@ -4,6 +4,7 @@ import "./TransactionDetails.css";
 import { useNavigate, useLocation } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
+import React from "react";
 
 const TransactionDetails = () => {
     const navigate = useNavigate();

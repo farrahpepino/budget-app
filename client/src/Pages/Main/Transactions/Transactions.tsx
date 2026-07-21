@@ -7,6 +7,7 @@ import type { TransactionDto } from '../../../DTOs/transaction';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Popup from '../../Shared/Popup/Popup';
+import React from 'react';
 
 const Transactions = () => {
 

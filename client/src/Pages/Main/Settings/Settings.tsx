@@ -3,6 +3,7 @@ import Sidebar from "../../Shared/Navigation/Sidebar/Sidebar";
 import './Settings.css'
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import React from "react";
 import { useState } from "react";
 
 const Settings = () => {

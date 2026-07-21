@@ -5,6 +5,7 @@ import { useState, useEffect } from "react"
 import { GetBalance } from "../../../Services/GetBalance"
 import ExpensePie from "../../../Services/ExpensePie"
 import axios from "axios"
+import React from "react"
 
 const Home = () => {
 
