@@ -92,3 +92,5 @@ __pycache__/
 
 # Python virtual environment
 server/venv/
+.DS_Store
+server/.DS_Store
