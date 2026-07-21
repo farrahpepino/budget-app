@@ -1,9 +1,0 @@
-.logo {
-    position: absolute;
-    top: 1.25rem;
-    right: 1.25rem;
-    width: 50px;
-    height: auto;
-}
-
-/* smaller device, position shouldn't be fixed and logo should be on the right side */

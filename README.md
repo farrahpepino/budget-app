@@ -29,8 +29,6 @@ npm run dev
 Frontend runs on:
 http://localhost:5173
 
-If any dependencies are missing, install them as needed based on error messages.
-
 ## Server Setup (FastAPI)
 
 cd server
