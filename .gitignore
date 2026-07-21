@@ -79,3 +79,16 @@ server/venv/lib/python3.12/site-packages/pip/_vendor/pygments/token.py
 server/venv/lib/python3.12/site-packages/pip/_vendor/pygments/unistring.py
 server/venv/lib/python3.12/site-packages/pip/_vendor/pygments/util.py
 server/venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/__init__.py
+
+.env
+server/venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# macOS
+.DS_Store
+
+# Python virtual environment
+server/venv/
