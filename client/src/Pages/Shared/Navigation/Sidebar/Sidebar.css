@@ -1,0 +1,40 @@
+.active {
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 0px;
+    display: flex;
+}
+
+.footer {
+    position: fixed;
+    bottom: 2rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.nav {
+    position: fixed;
+    top: 15rem;
+}
+
+.Sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    border-right: 1px solid #D9D9D9;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 100vh;
+    position: fixed;
+}
