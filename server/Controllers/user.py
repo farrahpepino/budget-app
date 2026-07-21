@@ -15,5 +15,6 @@ def update_name(id: str, name: str, db: Session = Depends(get_db)):
 
 @router.delete("/user/{id}")
 def delete_user(id: str, db: Session = Depends(get_db)):
-    return service.delete_user(db, id)
+    result = service.delete_user(db, id)
+    return result
 

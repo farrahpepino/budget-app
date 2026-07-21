@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from database import Base, engine
-from Controllers import auth, account, transaction
+from Controllers import auth, account, transaction, user
 
 app = FastAPI()
 
@@ -21,3 +21,4 @@ def startup():
 app.include_router(auth.router)
 app.include_router(account.router)
 app.include_router(transaction.router)
+app.include_router(user.router)

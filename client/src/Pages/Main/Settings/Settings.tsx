@@ -22,7 +22,7 @@ const Settings = () => {
         }
 
         try {
-            await axios.delete(`${apiUrl}/accounts/${user.id}`);
+            await axios.delete(`${apiUrl}/user/${user.id}`);
 
             localStorage.removeItem("user");
 
