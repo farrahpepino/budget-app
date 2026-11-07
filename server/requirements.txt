@@ -3,7 +3,6 @@ pydantic
 SQLAlchemy
 fastapi
 uvicorn
-PyMySQL
 google-auth
 requests
 psycopg[binary]
