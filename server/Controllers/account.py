@@ -58,7 +58,7 @@ def update_account(account_dto: Partial_Account_Dto, db: Session = Depends(get_d
     return service.update_account(db, account_dto)
 
 @router.delete("/accounts/{id}")
-def delete_account(id, db: Session = Depends(get_db)):
+def delete_account(id:str, db: Session = Depends(get_db)):
     deleted = service.delete_account(db, id)
     
     print(id)
