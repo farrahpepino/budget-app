@@ -4,3 +4,4 @@ SQLAlchemy
 fastapi
 uvicorn
 PyMySQL
+google-auth
