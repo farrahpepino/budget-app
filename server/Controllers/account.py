@@ -42,7 +42,10 @@ def get_account(
     account = service.get_account(db, id)
 
     if not account:
-        return 
+    raise HTTPException(
+        status_code=404,
+        detail="Account not found"
+    )
 
     return account
 
