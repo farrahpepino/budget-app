@@ -5,3 +5,4 @@ fastapi
 uvicorn
 PyMySQL
 google-auth
+requests
